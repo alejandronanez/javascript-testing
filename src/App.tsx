@@ -1,10 +1,10 @@
 import "./App.css";
-import { BlogPosts } from "./BlogPosts/BlogPosts.tsx";
+import { BlogPost } from "./BlogPosts/BlogPost.tsx";
 
 function App() {
   return (
     <>
-      <BlogPosts />
+      <BlogPost id={1} />
     </>
   );
 }
